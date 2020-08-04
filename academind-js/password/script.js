@@ -21,7 +21,7 @@ function numberGenerator() {
 }
 // step-3
 // button generator activation
-function numberPad(num) {
+function numberButton(num) {
   document.getElementById("pin-input").value =
     document.getElementById("pin-input").value + num;
 }
